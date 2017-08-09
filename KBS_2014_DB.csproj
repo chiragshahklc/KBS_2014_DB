@@ -60,5 +60,28 @@
     <EmbeddedResource Include="MDIParent1.resx" />
     <EmbeddedResource Include="Properties\Resources.resx" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="DB\kbs.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Kbc b.png" />
+    <Content Include="Images\Kbc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ques\Question1.xlsx" />
+    <None Include="Ques\Question10.xlsx" />
+    <None Include="Ques\Question11.xlsx" />
+    <None Include="Ques\Question12.xlsx" />
+    <None Include="Ques\Question13.xlsx" />
+    <None Include="Ques\Question2.xlsx" />
+    <None Include="Ques\Question3.xlsx" />
+    <None Include="Ques\Question4.xlsx" />
+    <None Include="Ques\Question5.xlsx" />
+    <None Include="Ques\Question6.xlsx" />
+    <None Include="Ques\Question7.xlsx" />
+    <None Include="Ques\Question8.xlsx" />
+    <None Include="Ques\Question9.xlsx" />
+    <None Include="Ques\Questionfff.xlsx" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
